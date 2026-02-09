@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  min-height: 700px;
+  background: linear-gradient(135deg, #17ffd8, #ecff41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #000000;
+  padding: 24px;
+}
+   
+.cestitka {
+  width: min(800px, 100%);
+  background-color: #53fce5;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 12px 35px rgba(9, 255, 255, 0.15);
+  border-top: 10px solid #53fce5;
+  position: relative;
+}
+
+.zaglavlje {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.mali-tekst {
+  margin: 0 0 6px 0;
+  font-size: 15px;
+  letter-spacing: 4px;    
+  text-transform: uppercase;
+  text-align: left;
+  color: #000000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;        
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.podnaslov {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 1.7;       
+  color: #000000;
+}
+
+.blok {
+  padding: 18px;
+  border-radius: 14px;
+  margin: 14px 0;
+}
+
+.blok h2 {
+  margin: 0 0 8px 0;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #000000;
+}
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: left;        
+}
+
+.boja {
+  background-color: #ffffff;  
+  border: 1px solid #4fffe8;
+}
+
+.gradijent {
+  background: linear-gradient(90deg, #ffffff, #ffffff);
+}
+
+.slika {
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgb(49, 245, 255);
+}
+
+.overlay {
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
+  border-radius: 15px;
+}
+
+.potpis {
+  text-align: right;
+  margin-top: 20px;
+  font-style: italic;
+  color: #010201;
+}
+.bijela-kutija{
+  background-color: white;
+  color: black;
+}
