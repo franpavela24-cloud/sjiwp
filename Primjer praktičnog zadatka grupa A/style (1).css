@@ -1,0 +1,67 @@
+body{
+    padding: 30px;
+    background:linear-gradient(150deg, #d7daff, #e6edff);
+    font-family: monospace;
+}
+
+.okvir{
+    max-width: 900px;
+    background-color: azure;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 14px 20px rgba(0,0,0,0.10);
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.podnaslov{
+    text-align: center;
+    font-size: 15px;
+    line-height: 2;
+    color: darkblue;
+}
+
+.blok1{
+    font-size: 15px;
+    background-color: lavenderblush;
+    border-radius: 20px;
+    border: 1px solid #d7daff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blok2{
+    font-size: 15px;
+    background:linear-gradient(90deg, #9aa1ff, #d6f3ff);
+    border-radius: 20px;
+    border: 1px solid #d7daff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blok3{
+    font-size: 15px;
+    background-image:url("pozadina.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    border: 1px solid #d7daff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.tekst{
+    background: rgba(255,255,255,0.70);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.naglasak{
+    color: crimson;
+    text-decoration: dotted;
+}
