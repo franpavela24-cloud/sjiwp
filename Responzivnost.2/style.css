@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding: 30px;
+    background-color: rgb(221, 255, 220);
+}
+
+.okvir{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.velika-kartica{
+    display: flex;
+    gap: 20px;
+}
+
+.kartica{
+    flex:1;
+    padding: 20px;
+    background-color: rgb(87, 190, 109);
+    border-radius: 10px;
+}
+
+@media (max-width:760px){
+    .velika-kartica{
+        flex-direction: column;
+    }
+    body{
+        background-color: rgb(255, 248, 236);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
