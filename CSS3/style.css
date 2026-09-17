@@ -1,0 +1,16 @@
+.kartica {
+    width: 300px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(0, 86, 133), lightblue);
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px gray;
+    text-shadow: 2px 2px 4px gray;
+    opacity: 1;
+    background-color: blue;
+    transform: rotate(5deg);
+    transform: scale(1.0);
+    transform: translate(50px,50px) rotate(5deg) scale(1.4);
+
+}
