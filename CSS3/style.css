@@ -1,16 +1,43 @@
-.kartica {
-    width: 300px;
-    padding: 10px;
-    background: linear-gradient(90deg, rgb(0, 86, 133), lightblue);
-    border: 1px solid black;
-    border-radius: 16px;
-    margin: 0 auto;
-    box-shadow: 10px 10px 15px gray;
-    text-shadow: 2px 2px 4px gray;
-    opacity: 1;
-    background-color: blue;
-    transform: rotate(5deg);
-    transform: scale(1.0);
-    transform: translate(50px,50px) rotate(5deg) scale(1.4);
+body {
+    background-color: #f5e1c0;
+    font-family: Arial;
+    color: #5c3317;
+    text-align: center;
+}
 
+h1 {
+    background-color: #b85c38;
+    color: white;
+    padding: 20px;
+}
+
+.kartica {
+    background-color: #fff4df;
+    width: 400px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 2px solid #b85c38;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.zanimljivosti {
+    background-color: #e5a44b;
+    width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
