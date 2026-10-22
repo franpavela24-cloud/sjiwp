@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Upis učenika</title>
+</head>
+<body>
+
+    <h1>Upis učenika</h1>
+
+    <form action="#" method="post">
+
+        <label for="ime">Ime:</label>
+        <input type="text" id="ime" name="ime" required>
+        <br><br>
+
+        <label for="prezime">Prezime:</label>
+        <input type="text" id="prezime" name="prezime" required>
+        <br><br>
+
+        <label for="datum">Datum rođenja:</label>
+        <input type="date" id="datum" name="datum" required>
+        <br><br>
+
+        <label for="email">E-mail adresa:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="telefon">Broj telefona:</label>
+        <input type="tel" id="telefon" name="telefon">
+        <br><br>
+
+        <p>Spol:</p>
+
+        <input type="radio" id="muski" name="spol" value="muski">
+        <label for="muski">Muški</label>
+
+        <input type="radio" id="zenski" name="spol" value="zenski">
+        <label for="zenski">Ženski</label>
+
+        <input type="radio" id="drugo" name="spol" value="drugo">
+        <label for="drugo">Drugo</label>
+        <br><br>
+
+        <label for="smjer">Smjer obrazovanja:</label>
+        <select id="smjer" name="smjer" required>
+            <option value="">-- Odaberite smjer --</option>
+            <option value="racunalstvo">Računalstvo</option>
+            <option value="ekonomija">Ekonomija</option>
+            <option value="elektrotehnika">Elektrotehnika</option>
+            <option value="strojarstvo">Strojarstvo</option>
+        </select>
+        <br><br>
+
+        <label for="napomene">Dodatne napomene:</label>
+        <br>
+        <textarea id="napomene" name="napomene"
+                  rows="5" cols="40"></textarea>
+        <br><br>
+
+        <input type="checkbox" id="uvjeti" name="uvjeti" required>
+        <label for="uvjeti">Prihvaćam uvjete upisa.</label>
+        <br><br>
+
+        <button type="submit">Pošalji prijavu</button>
+        <button type="reset">Obriši podatke</button>
+
+    </form>
+
+</body>
+</html>
